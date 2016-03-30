@@ -26,6 +26,6 @@ class Welcome extends CI_Controller {
 
 	public function contact_us()
 	{
-		$this->load
+		//$this->load
 	}
 }
