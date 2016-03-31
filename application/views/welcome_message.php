@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="assets/eladioramonida/src/img/favicon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/eladioramonida/src/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/eladioramonida/src/img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/eladioramonida/src/img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="assets/eladioramonida/src/img/logo2.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/eladioramonida/src/img/logo2.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/eladioramonida/src/img/logo2.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/eladioramonida/src/img/logo2.png">
 
     <link rel="stylesheet" href="assets/eladioramonida/src/style.css">
   </head>
@@ -71,9 +71,9 @@
         </div>
         <ul class="services-list clear">
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-performance">Performance Increase</h3>
+            <h3 class="service-item-heading service-icon service-icon-performance">Air-Conditioning, Ventilation and Air Filtration System Installation and Maintenance</h3>
             <p>
-              Enabling companies to grow revenue, improve margins and reposition quickly.
+              Air-Conditioning, Ventilation and Air Filtration System Installation and Maintenance
             </p>
           </li>
           <li class="service-item">
