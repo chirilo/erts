@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="assets/eladioramonida/src/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/eladioramonida/src/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/eladioramonida/src/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/eladioramonida/src/img/apple-touch-icon-114x114.png">
 
     <link rel="stylesheet" href="assets/eladioramonida/src/style.css">
   </head>
@@ -197,22 +197,22 @@
             <div class="client-tab client-tab-1">
               <ul class="clients-list clear">
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/oracle.png" alt="Oracle"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/oracle.png" alt="Oracle"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sony.png" alt="Sony"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sony.png" alt="Sony"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sandisk.png" alt="SanDisk"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sandisk.png" alt="SanDisk"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/mcafee.png" alt="McAfee"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/mcafee.png" alt="McAfee"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/netflix.png" alt="Netflix"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/netflix.png" alt="Netflix"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sap.png" alt="SAP"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sap.png" alt="SAP"></a>
                 </li>
               </ul>
             </div>
@@ -221,22 +221,22 @@
             <div class="client-tab client-tab-2">
               <ul class="clients-list clear">
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sony.png" alt="Sony"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sony.png" alt="Sony"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/oracle.png" alt="Oracle"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/oracle.png" alt="Oracle"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sandisk.png" alt="SanDisk"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sandisk.png" alt="SanDisk"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/mcafee.png" alt="McAfee"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/mcafee.png" alt="McAfee"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sap.png" alt="SAP"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sap.png" alt="SAP"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/netflix.png" alt="Netflix"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/netflix.png" alt="Netflix"></a>
                 </li>
               </ul>
             </div>
@@ -245,22 +245,22 @@
             <div class="client-tab client-tab-3">
               <ul class="clients-list clear">
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/netflix.png" alt="Netflix"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/netflix.png" alt="Netflix"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/oracle.png" alt="Oracle"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/oracle.png" alt="Oracle"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sony.png" alt="Sony"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sony.png" alt="Sony"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/mcafee.png" alt="McAfee"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/mcafee.png" alt="McAfee"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sandisk.png" alt="SanDisk"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sandisk.png" alt="SanDisk"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="img/sap.png" alt="SAP"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sap.png" alt="SAP"></a>
                 </li>
               </ul>
             </div>
@@ -271,7 +271,7 @@
           <h3 class="h3">Our Team</h3>
           <ul id="team" class="team-list clear">
             <li class="team-item">
-              <a id="team-1" href="#team-1-profile"><img class="block img-full" src="img/team-01.jpg" alt="Team Member 1">
+              <a id="team-1" href="#team-1-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-01.jpg" alt="Team Member 1">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -280,7 +280,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-2" href="#team-2-profile"><img class="block img-full" src="img/team-02.jpg" alt="Team Member 2">
+              <a id="team-2" href="#team-2-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-02.jpg" alt="Team Member 2">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -289,7 +289,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-3" href="#team-3-profile"><img class="block img-full" src="img/team-03.jpg" alt="Team Member 3">
+              <a id="team-3" href="#team-3-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-03.jpg" alt="Team Member 3">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -298,7 +298,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-4" href="#team-4-profile"><img class="block img-full" src="img/team-04.jpg" alt="Team Member 4">
+              <a id="team-4" href="#team-4-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-04.jpg" alt="Team Member 4">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -307,7 +307,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-5" href="#team-5-profile"><img class="block img-full" src="img/team-05.jpg" alt="Team Member 5">
+              <a id="team-5" href="#team-5-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-05.jpg" alt="Team Member 5">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -316,7 +316,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-6" href="#team-6-profile"><img class="block img-full" src="img/team-06.jpg" alt="Team Member 6">
+              <a id="team-6" href="#team-6-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-06.jpg" alt="Team Member 6">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -325,7 +325,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-7" href="#team-7-profile"><img class="block img-full" src="img/team-07.jpg" alt="Team Member 7">
+              <a id="team-7" href="#team-7-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-07.jpg" alt="Team Member 7">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -334,7 +334,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-8" href="#team-8-profile"><img class="block img-full" src="img/team-08.jpg" alt="Team Member 8">
+              <a id="team-8" href="#team-8-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-08.jpg" alt="Team Member 8">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -343,7 +343,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-9" href="#team-9-profile"><img class="block img-full" src="img/team-09.jpg" alt="Team Member 9">
+              <a id="team-9" href="#team-9-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-09.jpg" alt="Team Member 9">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -352,7 +352,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-10" href="#team-10-profile"><img class="block img-full" src="img/team-10.jpg" alt="Team Member 10">
+              <a id="team-10" href="#team-10-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-10.jpg" alt="Team Member 10">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -361,7 +361,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-11" href="#team-11-profile"><img class="block img-full" src="img/team-11.jpg" alt="Team Member 11">
+              <a id="team-11" href="#team-11-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-11.jpg" alt="Team Member 11">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -370,7 +370,7 @@
               </a>
             </li>
             <li class="team-item">
-              <a id="team-12" href="#team-12-profile"><img class="block img-full" src="img/team-12.jpg" alt="Team Member 12">
+              <a id="team-12" href="#team-12-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-12.jpg" alt="Team Member 12">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
                   <strong class="team-item-title">Bad Debt Manager</strong>
@@ -388,7 +388,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-01.jpg" alt="Team Member 1">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-01.jpg" alt="Team Member 1">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -408,7 +408,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-02.jpg" alt="Team Member 2">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-02.jpg" alt="Team Member 2">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -428,7 +428,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-03.jpg" alt="Team Member 3">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-03.jpg" alt="Team Member 3">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -448,7 +448,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-04.jpg" alt="Team Member 4">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-04.jpg" alt="Team Member 4">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -468,7 +468,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-05.jpg" alt="Team Member 5">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-05.jpg" alt="Team Member 5">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -488,7 +488,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-06.jpg" alt="Team Member 6">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-06.jpg" alt="Team Member 6">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -508,7 +508,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-07.jpg" alt="Team Member 7">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-07.jpg" alt="Team Member 7">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -528,7 +528,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-08.jpg" alt="Team Member 8">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-08.jpg" alt="Team Member 8">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -548,7 +548,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-09.jpg" alt="Team Member 9">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-09.jpg" alt="Team Member 9">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -568,7 +568,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-10.jpg" alt="Team Member 10">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-10.jpg" alt="Team Member 10">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -588,7 +588,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-11.jpg" alt="Team Member 11">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-11.jpg" alt="Team Member 11">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -608,7 +608,7 @@
               <h2 class="team-profile-heading">Clark Kent</h2>
               <strong class="block">Bad Debt Manager - Team Leader</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="img/team-12.jpg" alt="Team Member 12">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-12.jpg" alt="Team Member 12">
                 <div class="team-profile-content-block">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -738,7 +738,7 @@
           <div class="news-list-left">
             <div class="news-item clear">
                 <a href="#" class="news-item-image">
-                  <img class="block" src="img/news-item-01.jpg" alt="News Item 01">
+                  <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
                 </a>
               <div class="news-item-content">
                 <div class="news-item-content-inner">
@@ -754,7 +754,7 @@
             </div>
             <div class="news-item news-item-secondary clear">
               <a href="#" class="news-item-image">
-                <img class="block" src="img/news-item-02.jpg" alt="News Item 02">
+                <img class="block" src="assets/eladioramonida/src/img/news-item-02.jpg" alt="News Item 02">
               </a>
               <div class="news-item-content">
                 <div class="news-item-content-inner">
@@ -772,7 +772,7 @@
           <div class="news-list-right">
             <div class="news-item news-item-third clear">
               <a href="#" class="news-item-image">
-                <img class="block" src="img/news-item-03.jpg" alt="News Item 03">
+                <img class="block" src="assets/eladioramonida/src/img/news-item-03.jpg" alt="News Item 03">
               </a>
               <div class="news-item-content">
                 <div class="news-item-content-inner">
