@@ -68,7 +68,7 @@
           <h2>Our Services</h2>
           <div class="col-10-desktop no-float center-element">
             <p>
-              Our management consulting services focus on our clients' most critical issues and opportunities. We have proven a multiplier effect from optimizing the sum of the parts, not just the individual pieces.
+              Together with skilled workforce and innovated engineers, we aim to be a technical service providers led by technology and be a leader of innovation towards sustainability. We guaranteed to our valued clients an efficient and high standard of workmanships. Our clients’ satisfaction is our primary business.
             </p>
           </div>
         </div>
@@ -76,50 +76,74 @@
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-performance">Air-Conditioning, Ventilation and Air Filtration System Installation and Maintenance</h3>
             <p>
-              Air-Conditioning, Ventilation and Air Filtration System Installation and Maintenance
+
             </p>
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-customer">Customer Marketing</h3>
-            <p>
+            <h3 class="service-item-heading service-icon service-icon-customer">Electromechanical Equipment Installation and Maintenance</h3>
+            <!-- <p>
               In-depth customer insights combined with economic and operational fundamentals.
-            </p>
+            </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-it">Innovative Technology</h3>
-            <p>
+            <h3 class="service-item-heading service-icon service-icon-it">Plumbing and Sanitary Contracting</h3>
+            <!-- <p>
               Realizing the full potential of IT resources, investments and assets.
-            </p>
+            </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-transformation">Full Transformation</h3>
-            <p>
+            <h3 class="service-item-heading service-icon service-icon-transformation">Solar Energy Systems Installation and Maintenance</h3>
+            <!-- <p>
               A cross-functional effort to alter the financial, operational and strategic trajectory of a business.
-            </p>
+            </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-strategy">Strategy</h3>
-            <p>
+            <h3 class="service-item-heading service-icon service-icon-strategy">Floor and Wall Tiling Works</h3>
+            <!-- <p>
               Tailored solutions that deliver results and achieve sustained growth.
-            </p>
+            </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-equity">Private Equity</h3>
-            <p>
+            <h3 class="service-item-heading service-icon service-icon-equity">Painting Contracting</h3>
+            <!-- <p>
               Advising investors across the entire investment life cycle.
-            </p>
+            </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-digital">Digital</h3>
-            <p>
+            <h3 class="service-item-heading service-icon service-icon-digital">Carpentry Works</h3>
+            <!-- <p>
               Deliver on core strategy, delight customers and operate smarter and faster.
-            </p>
+            </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-delivery">Results Delivery</h3>
-            <p>
+            <h3 class="service-item-heading service-icon service-icon-delivery">Partitions &amp; False Ceiling Contracting</h3>
+            <!-- <p>
               Predicting, measuring and managing risk associated with change management.
-            </p>
+            </p> -->
+          </li>
+          <li class="service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery">Electrical Fittings &amp; Fixture Services</h3>
+            <!-- <p>
+              Predicting, measuring and managing risk associated with change management.
+            </p> -->
+          </li>
+          <li class="service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery">Plaster &amp; Cladding Works</h3>
+            <!-- <p>
+              Predicting, measuring and managing risk associated with change management.
+            </p> -->
+          </li>
+          <li class="service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery">Swimming Pools Installation</h3>
+            <!-- <p>
+              Predicting, measuring and managing risk associated with change management.
+            </p> -->
+          </li>
+          <li class="service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery">Water Tanks Cleaning Services</h3>
+            <!-- <p>
+              Predicting, measuring and managing risk associated with change management.
+            </p> -->
           </li>
         </ul>
       </div>
