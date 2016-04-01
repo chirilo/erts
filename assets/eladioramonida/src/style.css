@@ -1882,37 +1882,53 @@ img {
 }
 .service-icon-performance:before {
   /*background-position: -73px -153px;*/
-  background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+  background: url(img/services-icons/ac-repair.png) no-repeat;
   width: 50px;
   height: 50px;
 }
 .service-icon-customer:before {
   /*background-position: -72px 6px;*/
-  background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+  background: url(img/services-icons/electromechanical.png) no-repeat;
 }
 .service-icon-it:before {
   /*background-position: 7px -73px;*/
-  background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+  background: url(img/services-icons/plumbing.png) no-repeat;
 }
 .service-icon-transformation:before {
   /*background-position: 7px 6px;*/
-  background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+  background: url(img/services-icons/solar-energy.png) no-repeat;
 }
 .service-icon-strategy:before {
   /*background-position: -149px 6px;*/
-   background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+   background: url(img/services-icons/floor-wall-tiling.png) no-repeat;
 }
 .service-icon-equity:before {
   /*background-position: -312px 6px;*/
-  background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+  background: url(img/services-icons/painting.png) no-repeat;
 }
 .service-icon-digital:before {
   /*background-position: -233px 7px;*/
-  background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+  background: url(img/services-icons/carpentry.png) no-repeat;
 }
 .service-icon-delivery:before {
   /*background-position: 9px -154px;*/
-  background: url(img/services-icons/17579-NRFKO1_09.png) no-repeat;
+  background: url(img/services-icons/partitions-false-ceiling.png) no-repeat;
+}
+.service-icon-delivery2:before {
+  /*background-position: 9px -154px;*/
+  background: url(img/services-icons/electromechanical.png) no-repeat;
+}
+.service-icon-delivery3:before {
+  /*background-position: 9px -154px;*/
+  background: url(img/services-icons/plaster-cladding.png) no-repeat;
+}
+.service-icon-delivery4:before {
+  /*background-position: 9px -154px;*/
+  background: url(img/services-icons/swimming-pool.png) no-repeat;
+}
+.service-icon-delivery5:before {
+  /*background-position: 9px -154px;*/
+  background: url(img/services-icons/water-tank.png) no-repeat;
 }
 .services-block.active .content-block-inner {
   -webkit-animation-duration: 1s;

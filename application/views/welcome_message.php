@@ -19,9 +19,20 @@
     <link rel="stylesheet" href="assets/eladioramonida/src/style.css">
   </head>
   <body>
+  	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJBQCD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJBQCD');</script>
+<!-- End Google Tag Manager -->
     <!-- banner block -->
     <div class="banner">
+
       <div class="header">
+      	<img src="http://www.pinoyhq.com/uploads/assets/logo.png" style="position: absolute; top: 0px; right: 10px;" alt="Proudly Pinoy" />
         <div class="header-inner container clear">
           <a class="" href="#"><img style="width: 10%; margin-left: 50px;" src="assets/eladioramonida/src/img/logo2.png" /></a>
           <input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox none">
@@ -122,25 +133,25 @@
             </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-delivery">Electrical Fittings &amp; Fixture Services</h3>
+            <h3 class="service-item-heading service-icon service-icon-delivery2">Electrical Fittings &amp; Fixture Services</h3>
             <!-- <p>
               Predicting, measuring and managing risk associated with change management.
             </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-delivery">Plaster &amp; Cladding Works</h3>
+            <h3 class="service-item-heading service-icon service-icon-delivery3">Plaster &amp; Cladding Works</h3>
             <!-- <p>
               Predicting, measuring and managing risk associated with change management.
             </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-delivery">Swimming Pools Installation</h3>
+            <h3 class="service-item-heading service-icon service-icon-delivery4">Swimming Pools Installation</h3>
             <!-- <p>
               Predicting, measuring and managing risk associated with change management.
             </p> -->
           </li>
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-delivery">Water Tanks Cleaning Services</h3>
+            <h3 class="service-item-heading service-icon service-icon-delivery5">Water Tanks Cleaning Services</h3>
             <!-- <p>
               Predicting, measuring and managing risk associated with change management.
             </p> -->
@@ -693,7 +704,7 @@
           <h2 class="feature-block-heading">We blend the strategic with creative</h2>
           <div class="col-10-desktop no-float center-element">
             <p>
-              When someone asks what we do at SKOKOV, it's tempting to point out our four-decade track record for helping to transform the world's great companies into sharper, smarter, better versions of themselves.
+              Eladio Ramonida Technical Services LLC is committed in rendering quality facilities maintenance and technical services around the United Arab Emirates. With almost 20 years of practicing as facility maintenance operation executive. Mr. Eladio Ramonida drives his dedication to build his own technical services company that could cater the highly demands of reliable technical services.
             </p>
           </div>
         </div>
@@ -701,12 +712,7 @@
           <a href="#video" class="modal-close"><span class="sr">Close</span></a>
           <div class="modal-inner">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Eladio Ramonida Technical Services LLC is committed in rendering quality facilities maintenance and technical services around the United Arab Emirates. With almost 20 years of practicing as facility maintenance operation executive. Mr. Eladio Ramonida drives his dedication to build his own technical services company that could cater the highly demands of reliable technical services.
             </p>
           </div>
         </div>
@@ -715,7 +721,7 @@
     <!-- /video feature block -->
 
     <!-- mission vision block -->
-    <div id="news" class="animate-block content-block news-block">
+    <?php /* <div id="news" class="animate-block content-block news-block">
       <div class="news-block-inner container">
         <div class="content-block-inner text-center">
           <h2>Mission, Vision, &amp; Values</h2>
@@ -747,11 +753,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> */ ?>
     <!-- /mission vision block -->
 
     <!-- news block -->
-    <!-- <div id="news" class="animate-block content-block news-block">
+    <?php /* <div id="news" class="animate-block content-block news-block">
       <div class="news-block-inner container">
         <div class="content-block-inner text-center">
           <h2>News</h2>
@@ -816,7 +822,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div> */ ?>
     <!-- /news block -->
 
     <!-- contact us block -->
@@ -824,14 +830,14 @@
       <div class="contact-block-inner container">
         <div class="clear">
           <div class="contact-block-content col-6-tablet">
-            <h2 class="h2 uppercase">Skokov</h2>
+            <h2 class="h2 uppercase">ERTS</h2>
             <p>
-              Thank you for your interest in SKOKOV. Please contact us using the information below. To locate contacts in the SKOKOV office closest to you, visit our office websites. To get the latest updates from SKOKOV, subscribe to a newsletter or connect with us on social media.
+              Thank you for your interest in ERTS. Please contact us using the information below. To locate contacts in the ERTS office closest to you, visit our office websites. To get the latest updates from ERTS, subscribe to a newsletter or connect with us on social media.
             </p>
             <ul class="contact-list">
-              <li><span class="icon contact-icon contact-icon-location">43 Georgiana Street, Idhanory, Ukraine</span></li>
-              <li><span class="icon contact-icon contact-icon-phone">+61 (03) 9541 0891</span></li>
-              <li><span class="icon contact-icon contact-icon-email"><a href="mailto:hello@skokovcompany.com?subject=General%20Enquiry&anp;body=">hello@skokovcompany.com</a></span></li>
+              <li><span class="icon contact-icon contact-icon-location">45 Doms St, Dubai, UAE</span></li>
+              <li><span class="icon contact-icon contact-icon-phone">050 889 4068 / 050 162 6495</span></li>
+              <li><span class="icon contact-icon contact-icon-email"><a href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Enquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
             </ul>
           </div>
           <div class="contact-block-form col-6-tablet">
@@ -875,13 +881,13 @@
         <div class="clear">
           <div class="footer-column col-8-tablet">
             <p>
-              &copy; Copyright 2015 &mdash; All Rights Reserved
+              &copy; Copyright 2016 &mdash; All Rights Reserved
             </p>
           </div>
           <div class="footer-column col-4-tablet">
             <ul class="footer-social-list icon-list-inline">
               <li class="navigation-item-social"><a class="social-icon social-linkedin" href="#"><span class="sr">LinkedIn</span></a></li>
-              <li class="navigation-item-social"><a class="social-icon social-facebook" href="#"><span class="sr">Facebook</span></a></li>
+              <li class="navigation-item-social"><a class="social-icon social-facebook" href="https://facebook.com/eladioramonidatechnicalservices/"><span class="sr">Facebook</span></a></li>
               <li class="navigation-item-social"><a class="social-icon social-twitter" href="#"><span class="sr">Twitter</span></a></li>
               <li class="navigation-item-social"><a class="social-icon social-youtube" href="#"><span class="sr">YouTube</span></a></li>
             </ul>
