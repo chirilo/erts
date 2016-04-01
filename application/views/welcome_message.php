@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="banner">
 
       <div class="header">
-      	<img src="http://www.pinoyhq.com/uploads/assets/logo.png" style="position: absolute; top: 0px; right: 10px;" alt="Proudly Pinoy" />
+      	<img src="assets/eladioramonida/src/img/proudly-pinoy.png" style="position: absolute; top: 0px; right: 10px;" alt="Proudly Pinoy" />
         <div class="header-inner container clear">
           <a class="" href="#"><img style="width: 10%; margin-left: 50px;" src="assets/eladioramonida/src/img/logo2.png" /></a>
           <input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox none">
