@@ -49,7 +49,7 @@
           </h1>
           <div class="banner-content">
             <p>
-              Growth doesn't always go the way you expect. Our strategy consultants can help you climb.
+              We guarantee our valued clients an efficient and high standard of workmanships.
             </p>
           </div>
           <div class="banner-buttons">
@@ -74,7 +74,7 @@
         </div>
         <ul class="services-list clear">
           <li class="service-item">
-            <h3 class="service-item-heading service-icon service-icon-performance">Air-Conditioning, Ventilation and Air Filtration System Installation and Maintenance</h3>
+            <h3 class="service-item-heading service-icon service-icon-performance">A/C System Installation and Maintenance</h3>
             <p>
 
             </p>
