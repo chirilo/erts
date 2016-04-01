@@ -23,7 +23,7 @@
     <div class="banner">
       <div class="header">
         <div class="header-inner container clear">
-          <a class="logo" href="#"><span class="sr"></span></a>
+          <a class="" href="#"><img style="width: 50%;" src="assets/eladioramonida/src/img/logo2.png" /></a>
           <input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox none">
           <label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick>
             <span class="navigation-toggle-label-inner">
