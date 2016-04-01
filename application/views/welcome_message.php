@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Eladio Ramonida Technical Servicess LLC</title>
+    <title>Eladio Ramonida Technical Servicess LLC | Welcome</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Eladio Ramonida Technical Services LLC, facility management, technical services, uae, facilities maintenance, technical services around the United Arab Emirates, facility maintenance operation executive, Mr. Eladio Ramonida, highly demands of reliable technical services, efficient and high standard of workmanships" />
+	<meta name="description" content="Eladio Ramonida Technical Services LLC is committed in rendering quality facilities maintenance and technical services around the United Arab Emirates. With almost 20 years of practicing as facility maintenance operation executive. Mr. Eladio Ramonida drives his dedication to build his own technical services company that could cater the highly demands of reliable technical services.Together with skilled workforce and innovated engineers, we aim to be a technical service providers led by technology and be a leader of innovation towards sustainability. We guaranteed to our valued clients an efficient and high standard of workmanships. Our clients’ satisfaction is our primary business." />
+	<meta name="author" content="Eladioramonidatechnicalservices.com"/>
 
     <link rel="shortcut icon" href="assets/eladioramonida/src/img/logo2.png">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/eladioramonida/src/img/logo2.png">
@@ -20,7 +23,7 @@
     <div class="banner">
       <div class="header">
         <div class="header-inner container clear">
-          <!-- <a class="logo" href="#"><span class="sr"></span></a> -->
+          <a class="logo" href="#"><span class="sr"></span></a>
           <input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox none">
           <label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick>
             <span class="navigation-toggle-label-inner">
