@@ -55,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="container">
         <div class="banner-inner">
           <h1 class="banner-lead">
-            <span class="banner-lead-1">Facility Management</span>
+            <span class="banner-lead-1">Quality Maintenance &amp;</span>
             <span class="banner-lead-2">Technical Services</span>
           </h1>
           <div class="banner-content">
@@ -228,6 +228,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </li>
             </ul>
           </div>
+          
           <div class="our-clients-block col-6-tablet clear">
             <h3 class="h3">Our Clients</h3>
             <input type="radio" name="clients" id="client-tab-1" class="client-tab-radio client-tab-radio-1 none" checked>
@@ -837,7 +838,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="contact-list">
               <li><span class="icon contact-icon contact-icon-location">45 Doms St, Dubai, UAE</span></li>
               <li><span class="icon contact-icon contact-icon-phone">050 889 4068 / 050 162 6495</span></li>
-              <li><span class="icon contact-icon contact-icon-email"><a href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Enquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
+              <li><span class="icon contact-icon contact-icon-email"><a  style="text-transform: none;"href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Enquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
             </ul>
           </div>
           <div class="contact-block-form col-6-tablet">
@@ -845,7 +846,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <p>
               Please contact us using contact form below.
             </p>
-            <form class="contact-form">
+            <form class="contact-form" id="contact-form">
               <fieldset>
                 <legend class="sr">Contact Us</legend>
                 <div class="field-group">
@@ -855,6 +856,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="field-group">
                   <label class="sr" for="email">Email</label>
                   <input name="email" class="field" id="email" type="email" placeholder="Email">
+                </div>
+                <div class="field-group">
+                  <label class="sr" for="company">Company</label>
+                  <input name="company" class="field" id="company" type="text" placeholder="Company">
                 </div>
                 <div class="field-group">
                   <label class="sr" for="subject">Date</label>
@@ -901,5 +906,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="assets/eladioramonida/src/js/vendor/wow.js"></script>
     <script src="assets/eladioramonida/src/js/default.js"></script>
     <!-- /scripts -->
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('#contact-form').on('submit', function(e){
+    			e.preventDefault();
+    			alert('Message Has been Submitted');
+    		})
+    	})
+    </script>
   </body>
 </html>
