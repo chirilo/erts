@@ -891,10 +891,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
           <div class="footer-column col-4-tablet">
             <ul class="footer-social-list icon-list-inline">
-              <li class="navigation-item-social"><a class="social-icon social-linkedin" href="#"><span class="sr">LinkedIn</span></a></li>
-              <li class="navigation-item-social"><a class="social-icon social-facebook" href="https://facebook.com/eladioramonidatechnicalservices/"><span class="sr">Facebook</span></a></li>
-              <li class="navigation-item-social"><a class="social-icon social-twitter" href="#"><span class="sr">Twitter</span></a></li>
-              <li class="navigation-item-social"><a class="social-icon social-youtube" href="#"><span class="sr">YouTube</span></a></li>
+              <li class="navigation-item-social"><a class="social-icon social-linkedin" target="_blank" href="https://www.linkedin.com/in/engrdominicramonida?trk=nav_responsive_tab_profile_pic"><span class="sr">LinkedIn</span></a></li>
+              <li class="navigation-item-social"><a class="social-icon social-facebook" target="_blank" href="https://facebook.com/eladioramonidatechnicalservices/"><span class="sr">Facebook</span></a></li>
+              <li class="navigation-item-social"><a class="social-icon social-twitter" target="_blank" href="https://twitter.com/janic4718"><span class="sr">Twitter</span></a></li>
+              <li class="navigation-item-social"><a class="social-icon social-youtube" target="_blank" href="#"><span class="sr">YouTube</span></a></li>
             </ul>
           </div>
         </div>
