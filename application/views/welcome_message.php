@@ -29,12 +29,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NJBQCD');</script>
 <!-- End Google Tag Manager -->
     <!-- banner block -->
-    <div class="banner">
+    <div class="banner" style="margin-bottom: 10px;">
 
-      <div class="header">
-      	<img src="assets/eladioramonida/src/img/proudly-pinoy.png" style="position: absolute; top: 0px; right: 10px;" alt="Proudly Pinoy" />
+      <div class="header" style="background: url('assets/eladioramonida/src/img/logo/erts-logo-final.png') 15% 40% no-repeat; background-size: contain; padding-top:70px;">
+      	
         <div class="header-inner container clear">
-          <a class="" href="#"><img style="width: 10%; margin-left: 50px;" src="assets/eladioramonida/src/img/logo2.png" /></a>
+          <img src="assets/eladioramonida/src/img/proudly-pinoy.png" style="width: 8%; position: absolute; top: 0%; right: 10px;" alt="Proudly Pinoy" />
+          <a class="logo" href="#"><!-- <img style="width: 10%; margin-left: 50px;" src="assets/eladioramonida/src/img/logo2.png" /> --></a>
           <input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox none">
           <label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick>
             <span class="navigation-toggle-label-inner">
@@ -46,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <li class="navigation-item"><a href="#home">Home</a></li>
               <li class="navigation-item"><a href="#services">Services</a></li>
               <li class="navigation-item"><a href="#about">About Us</a></li>
-              <li class="navigation-item"><a href="#news">Mission & Vision</a></li>
+              <li class="navigation-item"><a href="#news">Mission &amp; Vision</a></li>
               <li class="navigation-item"><a href="#contact">Contact</a></li>
             </ul>
           </div>
