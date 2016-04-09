@@ -887,7 +887,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="clear">
           <div class="footer-column col-8-tablet">
             <p>
-              &copy; Copyright 2016 &mdash; All Rights Reserved
+              
+              <ul style="position: relative; overflow: hidden; list-style-type: none; padding: 20px;">
+                <li>
+                  <span style="float: left;">&copy; Copyright 2016 &mdash; All Rights Reserved</span> <img style="float: left; margin: -20px 0px 0px 10px;" src="assets/eladioramonida/src/img/satisfaction-guaranteed-performance.png" width="10%" alt="Satisfaction Guaranteed">
+                </li>
+                <li></li>  
+              </ul>
             </p>
           </div>
           <div class="footer-column col-4-tablet">
