@@ -31,7 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- banner block -->
     <div class="banner" style="margin-bottom: 10px;">
 
-      <div class="header" style="background: url('assets/eladioramonida/src/img/logo/erts-logo-final.png') 15% 40% no-repeat; background-size: contain; padding-top:70px;">
+      <div class="header" style="background: url('assets/eladioramonida/src/img/logo/erts-logo-final.png') 5% 40% no-repeat; background-size: contain; padding-top:70px;">
       	
         <div class="header-inner container clear">
           <img src="assets/eladioramonida/src/img/proudly-pinoy.png" style="width: 8%; position: absolute; top: 0%; right: 10px;" alt="Proudly Pinoy" />
