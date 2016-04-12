@@ -886,16 +886,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="footer-inner container">
         <div class="clear">
           <div class="footer-column col-8-tablet">
-            <p>
-              
-              <ul style="position: relative; overflow: hidden; list-style-type: none; padding: 20px;">
+              <ul style="list-style-type: none;">
                 <li>
-                  <span style="float: left;">&copy; Copyright 2016 &mdash; All Rights Reserved</span> <img style="float: left; margin: -20px 0px 0px 10px;" src="assets/eladioramonida/src/img/satisfaction-guaranteed-performance.png" width="10%" alt="Satisfaction Guaranteed">
-                </li>
-                <li></li>  
+                  <span>ERTS &copy; Copyright 2016 &mdash; All Rights Reserved</span> </li>
+                <li>  
+                  <img style="margin-right: 5px;" src="assets/eladioramonida/src/img/satisfaction-guaranteed-performance.png" width="10%" alt="Satisfaction Guaranteed">
+                <img style="" src="assets/eladioramonida/src/img/expo.png" width="25%" alt="Expo 2020"></li>  
               </ul>
-            </p>
+            
           </div>
+        
           <div class="footer-column col-4-tablet">
             <ul class="footer-social-list icon-list-inline">
               <li class="navigation-item-social"><a class="social-icon social-linkedin" target="_blank" href="https://www.linkedin.com/in/engrdominicramonida?trk=nav_responsive_tab_profile_pic"><span class="sr">LinkedIn</span></a></li>
@@ -910,6 +910,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- /footer -->
 
     <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
     <script src="assets/eladioramonida/src/js/vendor/wow.js"></script>
     <script src="assets/eladioramonida/src/js/default.js"></script>
     <!-- /scripts -->
