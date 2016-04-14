@@ -17,6 +17,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="assets/eladioramonida/src/img/logo2.png">
 
     <link rel="stylesheet" href="assets/eladioramonida/src/style.css">
+    <!-- Slick.js Css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
   </head>
   <body>
   	<!-- Google Tag Manager -->
@@ -29,7 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NJBQCD');</script>
 <!-- End Google Tag Manager -->
     <!-- banner block -->
-    <div class="banner" style="margin-bottom: 10px;">
+    <div id="banner" class="banner banner3">
 
       <div class="header" style="background: url('assets/eladioramonida/src/img/logo/erts-logo-final.png') 5% 40% no-repeat; background-size: contain; padding-top:70px;">
       	
@@ -758,8 +760,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div> */ ?>
     <!-- /mission vision block -->
 
+    <div class="container">
+      <div class="company-credential-responsive">
+        <div class="image">
+          <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
+        </div>
+        <div class="image">
+          <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
+        </div>
+        <div class="image">
+          <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
+        </div>
+        <div class="image">
+          <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
+        </div>
+      </div>
+    </div>
+
     <!-- news block -->
-    <?php /* <div id="news" class="animate-block content-block news-block">
+    <div id="news" class="animate-block content-block news-block">
       <div class="news-block-inner container">
         <div class="content-block-inner text-center">
           <h2>News</h2>
@@ -775,33 +794,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <a href="#" class="news-item-image">
                   <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
                 </a>
-              <div class="news-item-content">
-                <div class="news-item-content-inner">
-                  <h3 class="news-item-title"><a href="#">Why Financial Institutions need a new IT model</a></h3>
-                  <p>
-                    Why old IT models are unlikely to deliver the competitive edge that banks, insurers and wealth management firms need from technology.
-                  </p>
-                  <em class="news-item-publish-date">
-                    Posted: 08.07.2015
-                  </em>
-                </div>
-              </div>
             </div>
             <div class="news-item news-item-secondary clear">
               <a href="#" class="news-item-image">
                 <img class="block" src="assets/eladioramonida/src/img/news-item-02.jpg" alt="News Item 02">
               </a>
-              <div class="news-item-content">
-                <div class="news-item-content-inner">
-                  <h3 class="news-item-title"><a href="#">Reimagining IT for an Omnichannel world</a></h3>
-                  <p>
-                    The technology that powers retail is evolving rapidly. Retailers and their IT groups will have to rise to stay ahead.
-                  </p>
-                  <em class="news-item-publish-date">
-                    Posted: 08.07.2015
-                  </em>
-                </div>
-              </div>
             </div>
           </div>
           <div class="news-list-right">
@@ -824,7 +821,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
         </div>
       </div>
-    </div> */ ?>
+    </div>
     <!-- /news block -->
 
     <!-- contact us block -->
@@ -837,9 +834,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               Thank you for your interest in ERTS. Please contact us using the information below. To locate contacts in the ERTS office closest to you, visit our office websites. To get the latest updates from ERTS, subscribe to a newsletter or connect with us on social media.
             </p>
             <ul class="contact-list">
-              <li><span class="icon contact-icon contact-icon-location">45 Doms St, Dubai, UAE</span></li>
-              <li><span class="icon contact-icon contact-icon-phone">050 889 4068 / 050 162 6495</span></li>
-              <li><span class="icon contact-icon contact-icon-email"><a  style="text-transform: none;"href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Enquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
+              <li style="text-transform: none;">
+                <a href="#"><span class="icon contact-icon contact-icon-location">
+                  Al Saqar Business Tower
+                  <br />
+                  Level 33, Sheikh Zayed Road<br />
+                  Dubai, United Arab Emirates</span>
+                </a>
+              </li>
+              <li><span class="icon contact-icon contact-icon-phone">Tel: +9714 3113500 <br /> Mobile: +971 50 8894068</span></li>
+              <li><span class="icon contact-icon contact-icon-email"><a style="text-transform: none;" href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Enquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
             </ul>
           </div>
           <div class="contact-block-form col-6-tablet">
@@ -911,15 +915,55 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <!-- Slick.js JS -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script src="assets/eladioramonida/src/js/vendor/wow.js"></script>
     <script src="assets/eladioramonida/src/js/default.js"></script>
     <!-- /scripts -->
     <script type="text/javascript">
     	$(document).ready(function(){
+
+        var classes = new Array();
+        classes[0] = "banner3";
+        classes[1] = "banner5";
+        classes[2] = "banner7";
+        /*setTimeout("changeImage()", 3000);
+        var x=0;*/
+
+       /* function changeImage()
+        {
+        
+        document.getElementById("banner").addClass = classes[x];
+        x++;
+        }*/
+
+        var $img = $("#banner"), i = 0, speed = 200;
+        window.setInterval(function() {
+          $img.fadeOut(speed, function() {
+            $img.removeClass('banner3 banner5 banner7');
+            $img.addAttr("class", classes[(++i % classes.length)]);
+            $img.fadeIn(speed);
+          }, 3000);
+        });
+
     		$('#contact-form').on('submit', function(e){
     			e.preventDefault();
     			alert('Message Has been Submitted');
-    		})
+    		});
+
+        /* Slick.js Credentials Company*/
+        $('.company-credential-responsive').slick({
+          dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  autoPlay: true,         
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          variableWidth: true,
+          adaptiveHeight: true
+        });
     	})
     </script>
   </body>

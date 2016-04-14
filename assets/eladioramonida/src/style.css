@@ -1612,9 +1612,20 @@ img {
   width: 100%;
 }
 .banner {
-  background: url(img/banner3.jpg) 0 0 no-repeat;
-  background-size: cover;
+  /*background: url(img/banner3.jpg) 0 0 no-repeat;*/
+  background-size: cover !important;
+  margin-bottom: 10px !important
 }
+.banner3 {
+   background: url('img/banner3.jpg') 0 0 no-repeat;
+}
+.banner5 {
+   background: url('img/banner5.jpg') 0 0 no-repeat;
+}
+.banner7 {
+   background: url('img/banner7.jpg') 0 0 no-repeat;
+}
+
 .banner:after {
   position: relative;
   margin-top: -200px;
