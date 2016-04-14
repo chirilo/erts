@@ -17,6 +17,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="assets/eladioramonida/src/img/logo2.png">
 
     <link rel="stylesheet" href="assets/eladioramonida/src/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    
     <?php /* <!-- Slick.js Css -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/> */ ?>
   </head>
@@ -835,23 +837,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </p>
             <ul class="contact-list">
               <li style="text-transform: none;">
-                <a href="#"><span class="icon contact-icon contact-icon-location">
+                <a href="#" id="googleMapDialogOpener"><span class="icon contact-icon contact-icon-location">
                   Al Saqar Business Tower
                   <br />
                   Level 33, Sheikh Zayed Road<br />
-                  Dubai, United Arab Emirates</span>
+                  Dubai, United Arab Emirates P.O Box: 65866</span>
                 </a>
               </li>
-              <li><span class="icon contact-icon contact-icon-phone">Tel: +9714 3113500 <br /> Mobile: +971 50 8894068</span></li>
-              <li><span class="icon contact-icon contact-icon-email"><a style="text-transform: none;" href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Enquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
+              <li><span class="icon contact-icon contact-icon-phone">
+              <a href="tel:+971501626495">
+                CALL +971 50 162 6495
+              </a><br />
+              Tel: <a href="tel:+97143113500">+9714 3113500</a> <br /> 
+              Mobile: <a href="tel:+971508894068">+971 50 889 4068</a></span>
+              </li>
+              <li><span class="icon contact-icon contact-icon-email"><a style="text-transform: none;" href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Inquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
             </ul>
+            
           </div>
           <div class="contact-block-form col-6-tablet">
             <h2 class="h2">Contact</h2>
             <p>
               Please contact us using contact form below.
             </p>
-            <form class="contact-form" id="contact-form">
+            <form class="contact-form" id="contact_form" type="post">
               <fieldset>
                 <legend class="sr">Contact Us</legend>
                 <div class="field-group">
@@ -866,10 +875,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <label class="sr" for="company">Company</label>
                   <input name="company" class="field" id="company" type="text" placeholder="Company">
                 </div>
-                <div class="field-group">
-                  <label class="sr" for="subject">Date</label>
-                  <input name="subject" class="field" id="subject" type="text" placeholder="Subject">
-                </div>
+                <!-- <div class="field-group"> -->
+                  <!-- <label class="sr" for="subject">Date</label> -->
+                  <input name="date" class="field" id="date" type="hidden" value="<?php echo date('F j, Y, g:i a');?>" />
+                  <input name="subject" class="field" id="subject" type="hidden" value="General Inquiry" />
+                <!-- </div> -->
                 <div class="field-group">
                   <label for="message" class="sr">Message</label>
                   <textarea placeholder="Message" class="field" name="message" id="message" cols="30" rows="7"></textarea>
@@ -911,12 +921,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
     </div>
+    <div id="googleMapDialog" title="Google Map" class="hidden">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.6770701219803!2d55.275935714574906!3d25.21411063720263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428c33db8afd%3A0xe34903f6c9e76de5!2sAl+Saqr+Business+Tower!5e0!3m2!1sen!2sph!4v1460621899364" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
     <!-- /footer -->
 
     <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script> -->
     <?php /* <!-- Slick.js JS -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> */ ?>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="assets/eladioramonida/src/js/vendor/wow.js"></script>
     <script src="assets/eladioramonida/src/js/default.js"></script>
     <!-- /scripts -->
@@ -937,33 +952,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         x++;
         }*/
 
-        var $img = $("#banner"), i = 0, speed = 200;
+        /*var $img = $("#banner"), i = 0, speed = 200;
         window.setInterval(function() {
           $img.fadeOut(speed, function() {
             $img.removeClass('banner3 banner5 banner7');
             $img.addAttr("class", classes[(++i % classes.length)]);
             $img.fadeIn(speed);
           }, 3000);
-        });
+        });*/
 
-    		$('#contact-form').on('submit', function(e){
+    		$('#contact_form').on('submit', function(e){
     			e.preventDefault();
     			alert('Message Has been Submitted');
     		});
 
-        /* Slick.js Credentials Company*/
-        $('.company-credential-responsive').slick({
-          dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
-  autoPlay: true,         
-          slidesToShow: 4,
-          slidesToScroll: 4,
-          variableWidth: true,
-          adaptiveHeight: true
+        $( "#googleMapDialog" ).dialog({
+          autoOpen: false,
+          width: "643",
+          height: "455",
+          show: {
+            effect: "blind",
+            duration: 1000
+          },
+          hide: {
+            effect: "explode",
+            duration: 1000
+          }
         });
+     
+        $( "#googleMapDialogOpener" ).on('click', function(e) {
+          e.preventDefault();
+          $("#googleMapDialog").toggleClass('hidden');
+          $( "#googleMapDialog" ).dialog( "open" );
+        });
+
     	})
     </script>
   </body>

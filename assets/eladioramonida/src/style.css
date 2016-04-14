@@ -1626,6 +1626,10 @@ img {
    background: url('img/banner7.jpg') 0 0 no-repeat;
 }
 
+.hidden{
+  display: none;
+}
+
 .banner:after {
   position: relative;
   margin-top: -200px;
