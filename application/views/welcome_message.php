@@ -17,8 +17,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="assets/eladioramonida/src/img/logo2.png">
 
     <link rel="stylesheet" href="assets/eladioramonida/src/style.css">
-    <!-- Slick.js Css -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+    <?php /* <!-- Slick.js Css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/> */ ?>
   </head>
   <body>
   	<!-- Google Tag Manager -->
@@ -760,7 +760,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div> */ ?>
     <!-- /mission vision block -->
 
-    <div class="container">
+    <?php /* <div class="container">
       <div class="company-credential-responsive">
         <div class="image">
           <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
@@ -775,10 +775,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <img class="block" src="assets/eladioramonida/src/img/news-item-01.jpg" alt="News Item 01">
         </div>
       </div>
-    </div>
+    </div> */ ?>
 
     <!-- news block -->
-    <div id="news" class="animate-block content-block news-block">
+    <?php /*<div id="news" class="animate-block content-block news-block">
       <div class="news-block-inner container">
         <div class="content-block-inner text-center">
           <h2>News</h2>
@@ -821,7 +821,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
         </div>
       </div>
-    </div>
+    </div> */ ?>
     <!-- /news block -->
 
     <!-- contact us block -->
@@ -915,8 +915,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
-    <!-- Slick.js JS -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <?php /* <!-- Slick.js JS -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> */ ?>
     <script src="assets/eladioramonida/src/js/vendor/wow.js"></script>
     <script src="assets/eladioramonida/src/js/default.js"></script>
     <!-- /scripts -->
