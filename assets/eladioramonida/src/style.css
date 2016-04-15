@@ -1609,7 +1609,9 @@ img {
   max-width: 100%;
 }
 .img-full {
-  width: 100%;
+  /*width: 100%;*/
+  width: 185px;
+  height: 185px;
 }
 .banner {
   /*background: url(img/banner3.jpg) 0 0 no-repeat;*/
@@ -2185,7 +2187,8 @@ img {
   animation-name: fadeInUp;
 }
 .video-feature-block {
-  background: url(img/video-banner.jpg) 50% 50% no-repeat;
+  /*background: url(img/chosen-by-industry-ready-to-work.jpg) 50% 50% no-repeat;*/
+  background: url(img/video-banner.png) 50% 50% no-repeat;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2343,7 +2346,7 @@ img {
   color: #fff;
 }
 .contact-block {
-  background: url(img/contact-banner.jpg) 0 0 no-repeat;
+  background: url(img/contact-banner.png) 0 0 no-repeat;
   background-size: cover;
   color: #fff;
 }
@@ -2632,7 +2635,8 @@ img {
     margin-bottom: 0;
   }
   .team-profile-content-block {
-    overflow: hidden;
+    /*overflow: hidden;*/
+    overflow: inherit;
   }
   .services-block {
     margin-top: -80px;
@@ -2654,7 +2658,8 @@ img {
   }
   .modal-inner {
     margin: 20px auto;
-    width: 600px;
+    /*width: 600px;*/
+    width: 80%;
   }
 }
 @media only screen and (min-width: 980px) {

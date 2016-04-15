@@ -241,22 +241,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="client-tab client-tab-1">
               <ul class="clients-list clear">
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/oracle.png" alt="Oracle"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client1.jpg" alt="Client 1"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sony.png" alt="Sony"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client2.jpg" alt="Sony"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sandisk.png" alt="SanDisk"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client3.jpg" alt="SanDisk"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/mcafee.png" alt="McAfee"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client4.jpg" alt="McAfee"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/netflix.png" alt="Netflix"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client5.jpg" alt="Netflix"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sap.png" alt="SAP"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client6.jpg" alt="SAP"></a>
                 </li>
               </ul>
             </div>
@@ -265,22 +265,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="client-tab client-tab-2">
               <ul class="clients-list clear">
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sony.png" alt="Sony"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client7.jpg" alt="Sony"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/oracle.png" alt="Oracle"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client8.jpg" alt="Oracle"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sandisk.png" alt="SanDisk"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client9.jpg" alt="SanDisk"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/mcafee.png" alt="McAfee"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client10.jpg" alt="McAfee"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sap.png" alt="SAP"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client11.jpg" alt="SAP"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/netflix.png" alt="Netflix"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client11.jpg" alt="Netflix"></a>
                 </li>
               </ul>
             </div>
@@ -289,41 +289,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="client-tab client-tab-3">
               <ul class="clients-list clear">
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/netflix.png" alt="Netflix"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client12.jpg" alt="Netflix"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/oracle.png" alt="Oracle"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client13.jpg" alt="Oracle"></a>
+                </li>
+                <?php /*<li class="client-item">
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client14.jpg" alt="Sony"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sony.png" alt="Sony"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client15.jpg" alt="McAfee"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/mcafee.png" alt="McAfee"></a>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client16.jpg" alt="SanDisk"></a>
                 </li>
                 <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sandisk.png" alt="SanDisk"></a>
-                </li>
-                <li class="client-item">
-                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/sap.png" alt="SAP"></a>
-                </li>
+                  <a href="#"><img class="block img-full" src="assets/eladioramonida/src/img/client18.jpg" alt="SAP"></a>
+                </li> */ ?>
               </ul>
             </div>
           </div>
         </div>
         
         <div class="animate-block our-team-block">
-          <h3 class="h3">Our Team</h3>
+          <h3 class="h3">Managing Director’s Message</h3>
           <ul id="team" class="team-list clear">
             <li class="team-item">
-              <a id="team-1" href="#team-1-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-01.jpg" alt="Team Member 1">
+              <a id="team-1" href="#team-1-profile"><img class="block img-full" src="assets/eladioramonida/src/img/eladio-ramonida-200x200.png" alt="Eladio Ramonida">
                 <span class="team-item-content">
-                  <strong class="team-item-name">Clark Kent</strong>
-                  <strong class="team-item-title">Bad Debt Manager</strong>
-                  <span class="team-item-position">Team Leader</span>
+                  <strong class="team-item-name">Eladio Ramonida</strong>
+                  <strong class="team-item-title">Managing Director</strong>
+                  <span class="team-item-position">CEO</span>
                 </span>
               </a>
             </li>
-            <li class="team-item">
+            <?php /*<!-- <li class="team-item">
               <a id="team-2" href="#team-2-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-02.jpg" alt="Team Member 2">
                 <span class="team-item-content">
                   <strong class="team-item-name">Clark Kent</strong>
@@ -421,7 +421,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <span class="team-item-position">Team Leader</span>
                 </span>
               </a>
-            </li>
+            </li> --> */ ?>
           </ul>
         </div>
 
@@ -429,24 +429,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="modal" id="team-1-profile">
             <a href="#team-1" class="modal-close"><span class="sr">Close</span></a>
             <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
+              <h2 class="team-profile-heading">Eladio Ramonida</h2>
+              <strong class="block">Managing Director - CEO</strong>
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-01.jpg" alt="Team Member 1">
+                <img class="team-profile-image block" src="assets/eladioramonida/src/img/eladio-ramonida-200x200.png" alt="Managing">
                 <div class="team-profile-content-block">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    First of all, I would like to express my deep gratitude to the people who have put their trust and pledged their full support on this establishment. It is indeed a great privilege to be able to build Eladio Ramonida Technical Services (ERTS), a company on the field of technical services and facilities maintenance. For almost 20 years I have been practicing as a facility maintenance operations executive, and by founding this establishment, I aim to uphold the excellence and maintain global high standards in providing facility maintenance and technical services that would meet our client’s demands. 
+Our client’s satisfaction is of prime importance and we are here to help them reach the full potential of their homes and business establishments. With a team of highly skilled workers, innovative engineers and state-of-the-art facilities, it is ERTS goal to help our clients achieve greater value from their investments by providing high-class and efficient technical and facilities maintenance service. We guarantee reliable and sustainable facilities management and dependable workmanship.
+ERTS is taking its first steps as a company and we intent to be known across the GCC as an integrated provider of technical and facilities management skills competent with global standards. We are proud to offer facility installation and maintenance services in air-condition, ventilation and air filtration system, solar energy systems and many other electromechanical equipment. We also contract with clients to do plumbing and sanitary works, floor and wall tiling works, carpentry, painting, plaster and cladding, false ceiling and partition works. In addition, ERTS also provide services for installation and cleaning of water tanks and swimming pools. We are committed to building close knit partnership with our clients by consistently providing efficient, economical, and excellent services.
+As managing director, I pledge to devote my skills and years of expertise in establishing good leadership for the company primarily by setting a good work example. Along with core measures taken for the employees to stay competent and skillful, it is important to ensure their welfare and holistic growth as well. I consider this business a great opportunity to contribute to the success of our clients as provider of enhanced and quality facility management and technical services.
+
+Eladio L. Ramonida
+Managing Director
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="modal" id="team-2-profile">
+          <?php /*<div class="modal" id="team-2-profile">
             <a href="#team-2" class="modal-close"><span class="sr">Close</span></a>
             <div class="modal-inner">
               <h2 class="team-profile-heading">Clark Kent</h2>
@@ -665,7 +666,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
               </div>
             </div>
-          </div>
+          </div> */ ?>
         </div>
       </div>
       <div class="about-block-inner container">
@@ -707,7 +708,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="video-feature-inner container">
         <div class="animate-block content-block-inner text-center">
           <a id="video" class="button button-play" href="#feature-video"><span class="sr">Play</span></a>
-          <h2 class="feature-block-heading">We blend the strategic with creative</h2>
+          <h2 class="feature-block-heading">CHOSEN BY INDUSTRY, READY TO WORK</h2>
           <div class="col-10-desktop no-float center-element">
             <p>
               Eladio Ramonida Technical Services LLC is committed in rendering quality facilities maintenance and technical services around the United Arab Emirates. With almost 20 years of practicing as facility maintenance operation executive. Mr. Eladio Ramonida drives his dedication to build his own technical services company that could cater the highly demands of reliable technical services.
@@ -833,7 +834,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="contact-block-content col-6-tablet">
             <h2 class="h2 uppercase">ERTS</h2>
             <p>
-              Thank you for your interest in ERTS. Please contact us using the information below. To locate contacts in the ERTS office closest to you, visit our office websites. To get the latest updates from ERTS, subscribe to a newsletter or connect with us on social media.
+              Thank you for your interest in ERTS.
+              To help us with your enquiry, please fill the contact form. Note, for an accurate quotation,
+              We need to visit the location to assess the work involved. 
             </p>
             <ul class="contact-list">
               <li style="text-transform: none;">
