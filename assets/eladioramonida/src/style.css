@@ -2706,6 +2706,10 @@ img {
   .service-item {
     min-height: 210px;
   }
+  .service-icon img {
+    width: 50px !important;
+    height: 50px !important;
+  }
   .team-list li {
     padding-left: 15px;
     padding-right: 15px;

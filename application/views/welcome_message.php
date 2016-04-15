@@ -88,78 +88,163 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </p>
           </div>
         </div>
-        <ul class="services-list clear">
-          <li class="service-item">
+        <!-- <ul id="team" class="team-list clear">
+            <li class="team-item service-item">
+              <a id="team-1" href="#team-1-profile"><img class="block img-full" src="assets/eladioramonida/src/img/eladio-ramonida-200x200.png" alt="Eladio Ramonida">
+                <span class="team-item-content">
+                  <strong class="team-item-name">Eladio Ramonida</strong>
+                  <strong class="team-item-title">Managing Director</strong>
+                  <span class="team-item-position">CEO</span>
+                </span>
+              </a>
+            </li>
+        <ul> -->
+        <ul class="team-list services-list clear">
+          <?php /*<li class="team-item service-item">
             <h3 class="service-item-heading service-icon service-icon-performance">A/C System Installation and Maintenance</h3>
-            <p>
-
-            </p>
+            <span class="team-item-content">
+              <a  href="#team-1-profile">
+                <h3 class="service-item-heading service-icon service-icon-performance">Click to see more!</h3>
+              </a>
+            </span>
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-customer">Electromechanical Equipment Installation and Maintenance</h3>
-            <!-- <p>
-              In-depth customer insights combined with economic and operational fundamentals.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-it">Plumbing and Sanitary Contracting</h3>
-            <!-- <p>
-              Realizing the full potential of IT resources, investments and assets.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-transformation">Solar Energy Systems Installation and Maintenance</h3>
-            <!-- <p>
-              A cross-functional effort to alter the financial, operational and strategic trajectory of a business.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-strategy">Floor and Wall Tiling Works</h3>
-            <!-- <p>
-              Tailored solutions that deliver results and achieve sustained growth.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-equity">Painting Contracting</h3>
-            <!-- <p>
-              Advising investors across the entire investment life cycle.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-digital">Carpentry Works</h3>
-            <!-- <p>
-              Deliver on core strategy, delight customers and operate smarter and faster.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-delivery">Partitions &amp; False Ceiling Contracting</h3>
-            <!-- <p>
-              Predicting, measuring and managing risk associated with change management.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-delivery2">Electrical Fittings &amp; Fixture Services</h3>
-            <!-- <p>
-              Predicting, measuring and managing risk associated with change management.
-            </p> -->
+            
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-delivery3">Plaster &amp; Cladding Works</h3>
-            <!-- <p>
-              Predicting, measuring and managing risk associated with change management.
-            </p> -->
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-delivery4">Swimming Pools Installation</h3>
-            <!-- <p>
-              Predicting, measuring and managing risk associated with change management.
-            </p> -->
+           
           </li>
           <li class="service-item">
             <h3 class="service-item-heading service-icon service-icon-delivery5">Water Tanks Cleaning Services</h3>
-            <!-- <p>
-              Predicting, measuring and managing risk associated with change management.
-            </p> -->
+          </li>*/ ?>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-performance">A/C System Installation and Maintenance</h3>
+            <span class="team-item-content">
+              <a id="service-1" href="#service-1-profile">
+                <h3 class="service-item-heading service-icon service-icon-performance">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-customer">Electromechanical Equipment Installation and Maintenance</h3>
+            <span class="team-item-content">
+              <a id="service-2" href="#service-2-profile">
+                <h3 class="service-item-heading service-icon service-icon-customer">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-it">Plumbing and Sanitary Contracting</h3>
+            <span class="team-item-content">
+              <a id="service-3" href="#service-3-profile">
+                <h3 class="service-item-heading service-icon service-icon-it">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-transformation">Solar Energy Systems Installation and Maintenance</h3>
+            <span class="team-item-content">
+              <a id="service-4" href="#service-4-profile">
+                <h3 class="service-item-heading service-icon service-icon-transformation">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-strategy">Floor and Wall Tiling Works</h3>
+            <span class="team-item-content">
+              <a id="service-5" href="#service-5-profile">
+                <h3 class="service-item-heading service-icon service-icon-strategy">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-equity">Painting Contracting</h3>
+            <span class="team-item-content">
+              <a id="service-6" href="#service-6-profile">
+                <h3 class="service-item-heading service-icon service-icon-equity">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-digital">Carpentry Works</h3>
+            <span class="team-item-content">
+              <a id="service-7" href="#service-7-profile">
+                <h3 class="service-item-heading service-icon service-icon-digital">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery">Partitions &amp; False Ceiling Contracting</h3>
+            <span class="team-item-content">
+              <a id="service-8" href="#service-8-profile">
+                <h3 class="service-item-heading service-icon service-icon-delivery">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery2">Electrical Fittings &amp; Fixture Services</h3>
+            <span class="team-item-content">
+              <a id="service-9" href="#service-9-profile">
+                <h3 class="service-item-heading service-icon service-icon-delivery2">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery3">Plaster &amp; Cladding Works</h3>
+            <span class="team-item-content">
+              <a id="service-10" href="#service-10-profile">
+                <h3 class="service-item-heading service-icon service-icon-delivery3">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery4">Swimming Pools Installation</h3>
+            <span class="team-item-content">
+              <a id="service-11" href="#service-11-profile">
+                <h3 class="service-item-heading service-icon service-icon-delivery4">Click to see more!</h3>
+              </a>
+            </span>
+          </li>
+          <li class="team-item service-item">
+            <h3 class="service-item-heading service-icon service-icon-delivery5">Water Tanks Cleaning Services</h3>
+            <span class="team-item-content">
+              <a id="service-12" href="#service-12-profile">
+                <h3 class="service-item-heading service-icon service-icon-delivery5">Click to see more!</h3>
+              </a>
+            </span>
           </li>
         </ul>
       </div>
@@ -312,7 +397,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         
         <div class="animate-block our-team-block">
-          <h3 class="h3">Managing Director’s Message</h3>
+          <center><h3 class="h3">Managing Director’s Message</h3></center>
           <ul id="team" class="team-list clear">
             <li class="team-item">
               <a id="team-1" href="#team-1-profile"><img class="block img-full" src="assets/eladioramonida/src/img/eladio-ramonida-200x200.png" alt="Eladio Ramonida">
@@ -435,39 +520,180 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <img class="team-profile-image block" src="assets/eladioramonida/src/img/eladio-ramonida-200x200.png" alt="Managing">
                 <div class="team-profile-content-block">
                   <p>
-                    First of all, I would like to express my deep gratitude to the people who have put their trust and pledged their full support on this establishment. It is indeed a great privilege to be able to build Eladio Ramonida Technical Services (ERTS), a company on the field of technical services and facilities maintenance. For almost 20 years I have been practicing as a facility maintenance operations executive, and by founding this establishment, I aim to uphold the excellence and maintain global high standards in providing facility maintenance and technical services that would meet our client’s demands. 
-Our client’s satisfaction is of prime importance and we are here to help them reach the full potential of their homes and business establishments. With a team of highly skilled workers, innovative engineers and state-of-the-art facilities, it is ERTS goal to help our clients achieve greater value from their investments by providing high-class and efficient technical and facilities maintenance service. We guarantee reliable and sustainable facilities management and dependable workmanship.
-ERTS is taking its first steps as a company and we intent to be known across the GCC as an integrated provider of technical and facilities management skills competent with global standards. We are proud to offer facility installation and maintenance services in air-condition, ventilation and air filtration system, solar energy systems and many other electromechanical equipment. We also contract with clients to do plumbing and sanitary works, floor and wall tiling works, carpentry, painting, plaster and cladding, false ceiling and partition works. In addition, ERTS also provide services for installation and cleaning of water tanks and swimming pools. We are committed to building close knit partnership with our clients by consistently providing efficient, economical, and excellent services.
-As managing director, I pledge to devote my skills and years of expertise in establishing good leadership for the company primarily by setting a good work example. Along with core measures taken for the employees to stay competent and skillful, it is important to ensure their welfare and holistic growth as well. I consider this business a great opportunity to contribute to the success of our clients as provider of enhanced and quality facility management and technical services.
-
-Eladio L. Ramonida
-Managing Director
+                    First of all, I would like to express my deep gratitude to the people who have put their trust and pledged their full support on this establishment. It is indeed a great privilege to be able to build Eladio Ramonida Technical Services (ERTS), a company on the field of technical services and facilities maintenance. For almost 20 years I have been practicing as a facility maintenance operations executive, and by founding this establishment, I aim to uphold the excellence and maintain global high standards in providing facility maintenance and technical services that would meet our client’s demands. Our client’s satisfaction is of prime importance and we are here to help them reach the full potential of their homes and business establishments. With a team of highly skilled workers, innovative engineers and state-of-the-art facilities, it is ERTS goal to help our clients achieve greater value from their investments by providing high-class and efficient technical and facilities maintenance service. We guarantee reliable and sustainable facilities management and dependable workmanship. ERTS is taking its first steps as a company and we intent to be known across the GCC as an integrated provider of technical and facilities management skills competent with global standards. We are proud to offer facility installation and maintenance services in air-condition, ventilation and air filtration system, solar energy systems and many other electromechanical equipment. We also contract with clients to do plumbing and sanitary works, floor and wall tiling works, carpentry, painting, plaster and cladding, false ceiling and partition works. In addition, ERTS also provide services for installation and cleaning of water tanks and swimming pools. We are committed to building close knit partnership with our clients by consistently providing efficient, economical, and excellent services. As managing director, I pledge to devote my skills and years of expertise in establishing good leadership for the company primarily by setting a good work example. Along with core measures taken for the employees to stay competent and skillful, it is important to ensure their welfare and holistic growth as well. I consider this business a great opportunity to contribute to the success of our clients as provider of enhanced and quality facility management and technical services.<br />Eladio L. Ramonida <br />Managing Director
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <?php /*<div class="modal" id="team-2-profile">
-            <a href="#team-2" class="modal-close"><span class="sr">Close</span></a>
+          <div class="modal" id="service-1-profile">
+            <a href="#service-1" class="modal-close"><span class="sr">Close</span></a>
             <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
+              <h2 class="team-profile-heading">A/C System Installation and Maintenance</h2>
+              
               <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-02.jpg" alt="Team Member 2">
-                <div class="team-profile-content-block">
+                <div class="team-profile-content-block" width="100%" height="600">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-1.pdf" width="100%" height="500"></iframe>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="modal" id="team-3-profile">
+          <div class="modal" id="service-2-profile">
+            <a href="#service-2" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Electromechanical Equipment Installation and Maintenance</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-2.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="modal" id="service-3-profile">
+            <a href="#service-3" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Plumbing and Sanitary Contracting</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-3.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-4-profile">
+            <a href="#service-4" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Solar Energy Systems Installation and Maintenance</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-4.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-5-profile">
+            <a href="#service-5" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Floor and Wall Tiling Works</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-5.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-6-profile">
+            <a href="#service-6" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Painting Contracting</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-6.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-7-profile">
+            <a href="#service-7" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Carpentry Works</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-7.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-8-profile">
+            <a href="#service-8" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Partitions &amp; False Ceiling Contracting</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-8.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-9-profile">
+            <a href="#service-9" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Electrical Fittings &amp; Fixture Services</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-9.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-10-profile">
+            <a href="#service-10" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Plaster &amp; Cladding Works</h2>
+              
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-10.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-11-profile">
+            <a href="#service-11" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Swimming Pools Installation</h2>
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-11.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="service-12-profile">
+            <a href="#service-12" class="modal-close"><span class="sr">Close</span></a>
+            <div class="modal-inner">
+              <h2 class="team-profile-heading">Water Tanks Cleaning Services</h2>
+              <div class="clear team-profile-content">
+                <div class="team-profile-content-block" width="100%" height="600">
+                  <p>
+                    <iframe src="assets/eladioramonida/src/img/services-profile/service-12.pdf" width="100%" height="500"></iframe>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <?php /*<div class="modal" id="team-3-profile">
             <a href="#team-3" class="modal-close"><span class="sr">Close</span></a>
             <div class="modal-inner">
               <h2 class="team-profile-heading">Clark Kent</h2>
