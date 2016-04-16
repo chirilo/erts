@@ -1080,7 +1080,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               Tel: <a href="tel:+97143113500">+9714 3113500</a> <br /> 
               Mobile: <a href="tel:+971508894068">+971 50 889 4068</a></span>
               </li>
-              <li><span class="icon contact-icon contact-icon-email"><a style="text-transform: none;" href="mailto:info@eladioramonidatechnicalservices.com?subject=General%20Inquiry&anp;body=">info@eladioramonidatechnicalservices.com</a></span></li>
+              <li><span class="icon contact-icon contact-icon-email"><a style="text-transform: none;" href="mailto:chithewebdeveloper@gmail.com">info@eladioramonidatechnicalservices.com</a></span></li>
             </ul>
             
           </div>
