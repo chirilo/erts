@@ -1624,18 +1624,29 @@ img {
 .banner5 {
    background: url('img/banner5.jpg') 0 0 no-repeat;
 }
-.banner7 {
+.banner4 {
    background: url('img/banner4.jpg') 0 0 no-repeat;
+}
+.banner7 {
+   background: url('img/banner7.jpg') 0 0 no-repeat;
+}
+.banner8 {
+   background: url('img/banner8.jpg') 0 0 no-repeat;
+}
+.banner6 {
+   background: url('img/banner6.jpg') 0 0 no-repeat;
 }
 
 #banner.banner3 div:after,
 #banner.banner4 div:after,
 #banner.banner5 div:after,
-#banner.banner6 div:after{
+#banner.banner6 div:after,
+#banner.banner7 div:after,
+#banner.banner8 div:after{
   transition: opacity 5s ease-in-out;
-    -webkit-transition: opacity 5s ease-in-out;
-    -moz-transition: opacity 5s ease-in-out;
-    -o-transition: opacity 5s ease-in-out;
+  -webkit-transition: opacity 5s ease-in-out;
+  -moz-transition: opacity 5s ease-in-out;
+  -o-transition: opacity 5s ease-in-out;
 }
 
 .hidden{
