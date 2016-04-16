@@ -1156,10 +1156,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- /footer -->
 
     <!-- scripts -->
-    <!-- <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
     <?php /* <!-- Slick.js JS -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> */ ?>
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="assets/eladioramonida/src/js/vendor/wow.js"></script>
     <script src="assets/eladioramonida/src/js/default.js"></script>
@@ -1169,7 +1169,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       $(document).ready(function(){
 
         var body = $('#banner');
-  var backgrounds = ['url(assets/eladioramonida/src/img/banner3.jpg)','url(assets/eladioramonida/src/img/banner4.jpg)', 'url(assets/eladioramonida/src/img/banner5.jpg)', 'url(http://static.jsbin.com/images/popout.png)'];
+  var backgrounds = ['url(assets/eladioramonida/src/img/banner3.jpg)','url(assets/eladioramonida/src/img/banner4.jpg)', 'url(assets/eladioramonida/src/img/banner5.jpg)'];
 var current = 0;
 
 function nextBackground() {
