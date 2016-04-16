@@ -1165,30 +1165,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="assets/eladioramonida/src/js/default.js"></script>
     <!-- /scripts -->
     <script type="text/javascript">
-    	$(document).ready(function(){
+    	
+      $(document).ready(function(){
 
-        var classes = new Array();
-        classes[0] = "banner3";
-        classes[1] = "banner5";
-        classes[2] = "banner7";
-        /*setTimeout("changeImage()", 3000);
-        var x=0;
+        var body = $('#banner');
+  var backgrounds = ['url(assets/eladioramonida/src/img/banner3.jpg)','url(assets/eladioramonida/src/img/banner4.jpg)', 'url(assets/eladioramonida/src/img/banner5.jpg)', 'url(http://static.jsbin.com/images/popout.png)'];
+var current = 0;
 
-        function changeImage()
-        {
-          document.getElementById("banner").removeClass()
-          document.getElementById("banner").addClass = classes[x];
-          x++;
-        }*/
+function nextBackground() {
+  body.css(
+   'background',
+    backgrounds[current = ++current % backgrounds.length]
+ );
 
-        var $img = $("#banner"), i = 0, speed = 200;
-        window.setInterval(function() {
-          $img.fadeOut(speed, function() {
-            $img.removeClass('banner3 banner5 banner7');
-            $img.addAttr("class", classes[(++i % classes.length)]);
-            $img.fadeIn(speed);
-          }, 3000);
-        });
+ setTimeout(nextBackground, 5000);
+ }
+ setTimeout(nextBackground, 5000);
+   body.css('background', backgrounds[0]);
 
     		$('#contact_form').on('submit', function(e){
     			e.preventDefault();
