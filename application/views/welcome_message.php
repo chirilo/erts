@@ -399,7 +399,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="animate-block our-team-block">
           <center><h3 class="h3">Managing Director’s Message</h3></center>
           <ul id="team" class="team-list clear">
-            <li class="team-item">
+            <center><li class="team-item" style="float: none !important;">
               <a id="team-1" href="#team-1-profile"><img class="block img-full" src="assets/eladioramonida/src/img/eladio-ramonida-200x200.png" alt="Eladio Ramonida">
                 <span class="team-item-content">
                   <strong class="team-item-name">Eladio Ramonida</strong>
@@ -407,7 +407,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <span class="team-item-position">CEO</span>
                 </span>
               </a>
-            </li>
+            </li></center>
             <?php /*<!-- <li class="team-item">
               <a id="team-2" href="#team-2-profile"><img class="block img-full" src="assets/eladioramonida/src/img/team-02.jpg" alt="Team Member 2">
                 <span class="team-item-content">
@@ -1172,23 +1172,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         classes[1] = "banner5";
         classes[2] = "banner7";
         /*setTimeout("changeImage()", 3000);
-        var x=0;*/
+        var x=0;
 
-       /* function changeImage()
+        function changeImage()
         {
-        
-        document.getElementById("banner").addClass = classes[x];
-        x++;
+          document.getElementById("banner").removeClass()
+          document.getElementById("banner").addClass = classes[x];
+          x++;
         }*/
 
-        /*var $img = $("#banner"), i = 0, speed = 200;
+        var $img = $("#banner"), i = 0, speed = 200;
         window.setInterval(function() {
           $img.fadeOut(speed, function() {
             $img.removeClass('banner3 banner5 banner7');
             $img.addAttr("class", classes[(++i % classes.length)]);
             $img.fadeIn(speed);
           }, 3000);
-        });*/
+        });
 
     		$('#contact_form').on('submit', function(e){
     			e.preventDefault();
