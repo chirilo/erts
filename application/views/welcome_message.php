@@ -1168,7 +1168,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       $(document).ready(function(){
 
       var body = $('#banner');
-      var backgrounds = ['url(assets/eladioramonida/src/img/banner3.jpg)','url(assets/eladioramonida/src/img/banner4.jpg)', 'url(assets/eladioramonida/src/img/banner5.jpg)', 'url(assets/eladioramonida/src/img/banner6.jpg)', 'url(assets/eladioramonida/src/img/banner7.jpg)', 'url(assets/eladioramonida/src/img/banner8.jpg)'];
+      var backgrounds = ['url(assets/eladioramonida/src/img/banner3.jpg)','url(assets/eladioramonida/src/img/banner4.jpg)', 'url(assets/eladioramonida/src/img/banner5.jpg)', 'url(assets/eladioramonida/src/img/banner6.jpg)', 'url(assets/eladioramonida/src/img/banner8.jpg)'];
       var current = 0;
 
       function nextBackground() {
