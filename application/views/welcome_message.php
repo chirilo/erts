@@ -21,6 +21,7 @@
     
     <?php /* <!-- Slick.js Css -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/> */ ?>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   </head>
   <body>
   	<!-- Google Tag Manager -->
@@ -1089,11 +1090,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <p>
               Please contact us using contact form below.
             </p>
-            <form class="contact-form" id="contact_form" type="post">
+            <?php /*<form class="contact-form" id="contact_form" type="post">*/?>
+            <form id="form" class="contact-form">
               <fieldset>
                 <legend class="sr">Contact Us</legend>
                 <div class="field-group">
-                  <label class="sr" for="name">Name</label>
+                  <label class="sr" for="name">Name *</label>
                   <input name="name" class="field" id="name" type="text" placeholder="Name">
                 </div>
                 <div class="field-group">
@@ -1102,23 +1104,52 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
                 <div class="field-group">
                   <label class="sr" for="company">Company</label>
-                  <input name="company" class="field" id="company" type="text" placeholder="Company">
+                  <input name="contact" class="field" id="contact" type="text" placeholder="Company">
                 </div>
-                <!-- <div class="field-group"> -->
-                  <!-- <label class="sr" for="subject">Date</label> -->
+                <?php /*<div class="field-group">
+                  <label class="sr" for="subject">Date</label>
                   <input name="date" class="field" id="date" type="hidden" value="<?php echo date('F j, Y, g:i a');?>" />
                   <input name="subject" class="field" id="subject" type="hidden" value="General Inquiry" />
-                <!-- </div> -->
+                </div>*/ ?>
                 <div class="field-group">
                   <label for="message" class="sr">Message</label>
                   <textarea placeholder="Message" class="field" name="message" id="message" cols="30" rows="7"></textarea>
                 </div>
                 <div class="text-right">
-                  <input type="submit" class="button button-primary contact-submit" value="Send">
+                  <input id="submit" type="submit" class="button button-primary contact-submit" value="Send">
                 </div>
               </fieldset>
             </form>
           </div>
+          <?php /*<div class="contact-block-form col-6-tablet">
+            <div id="mainform">
+              <!-- Required div starts here -->
+                <form id="form">
+                 <p id="returnmessage"></p>
+                                        <hr/><br/>
+                                        <label>Name: <span>*</span></label>
+                <br/>
+                <input type="text" id="name" placeholder="Name"/><br/>
+                <br/>
+                <label>Email: <span>*</span></label>
+                <br/>
+                <input type="text" id="email" placeholder="Email"/><br/>
+                <br/>
+                <label>Contact No: <span>*</span></label>
+                <br/>
+                                        <input type="text" id="contact" placeholder="10 digit Mobile no."/><br/>
+                <br/>
+                <label>Message:</label>
+                <br/>       
+                                        <textarea id="message" placeholder="Message......."></textarea><br/>
+                <br/>
+                <input type="button" id="submit" value="Send Message"/>
+                                        <br/>
+                      </form>
+            
+
+            </div>
+          </div>*/?>
         </div>
       </div>
     </div>
@@ -1181,10 +1212,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       setTimeout(nextBackground, 5000);
       body.css('background', backgrounds[0], 'transition: opacity 5s ease-in-out', '-webkit-transition: opacity 5s ease-in-out', '-moz-transition: opacity 5s ease-in-out', '-o-transition: opacity 5s ease-in-out');
 
-    		$('#contact_form').on('submit', function(e){
+    		/*$('#contact_form').on('submit', function(e){
     			e.preventDefault();
     			alert('Message Has been Submitted');
-    		});
+    		});*/
 
         $( "#googleMapDialog" ).dialog({
           autoOpen: false,
@@ -1206,6 +1237,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           $( "#googleMapDialog" ).dialog( "open" );
         });
 
+        /* Contact Form script */
+        $("#submit").click(function(){
+          var name = $("#name").val();
+          var email = $("#email").val();
+          var message = $("#message").val();
+          var contact = $("#contact").val();
+
+          $("#returnmessage").empty(); //To empty previous error/success message.
+        //checking for blank fields 
+        if(name==''||email==''||contact=='')
+        {
+           alert("Please Fill Required Fields"); 
+        }
+        else{
+        // Returns successful data submission message when the entered information is stored in database.
+        $.post("contact_form.php",{ name1: name, email1: email, message1:message, contact1: contact},
+           function(data) {
+                        $("#returnmessage").append(data);//Append returned message to message paragraph
+                  if(data=="Your Query has been received, We will contact you soon."){
+                    $("#form")[0].reset();//To reset form fields on success
+                  }
+              });
+                 }
+         
+        });
+        /* end of Contact Form script */
     	});
     </script>
   </body>
