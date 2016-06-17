@@ -893,20 +893,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               Please contact us using contact form below.
             </p>
             <?php /*<form class="contact-form" id="contact_form" type="post">*/?>
-            <form id="form" class="contact-form">
+            <!-- <form id="form" class="contact-form"> -->
+            <?php 
+              echo validation_errors('<div style="color:red;">','</div>'); 
+              echo $this->session->flashdata('email_sent'); 
+            ?>
+            <?php echo form_open();?>
               <fieldset>
                 <legend class="sr">Contact Us</legend>
                 <div class="field-group">
                   <label class="sr" for="name">Name *</label>
-                  <input name="name" class="field" id="name" type="text" placeholder="Name">
+                  <input name="name" class="field" id="name" type="text" placeholder="Name" value="<?php echo set_value('name'); ?>" size="50" />
                 </div>
                 <div class="field-group">
                   <label class="sr" for="email">Email</label>
-                  <input name="email" class="field" id="email" type="email" placeholder="Email">
+                  <input name="email" class="field" id="email" type="email" placeholder="Email" value="<?php echo set_value('email'); ?>" size="50" />
                 </div>
                 <div class="field-group">
                   <label class="sr" for="company">Company</label>
-                  <input name="contact" class="field" id="contact" type="text" placeholder="Company">
+                  <input name="company" class="field" id="company" type="text" placeholder="Company" value="<?php echo set_value('company'); ?>" size="50" />
                 </div>
                 <?php /*<div class="field-group">
                   <label class="sr" for="subject">Date</label>
@@ -915,16 +920,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>*/ ?>
                 <div class="field-group">
                   <label for="message" class="sr">Message</label>
-                  <textarea placeholder="Message" class="field" name="message" id="message" cols="30" rows="7"></textarea>
+                  <!-- <textarea placeholder="Message" class="field" name="message" id="message" cols="30" rows="7"></textarea> -->
+                  <input placeholder="Message" class="field" name="message" id="message" value="<?php echo set_value('message'); ?>" size="1500" style="height: 200px !important;" />
                 </div>
-                <div class="text-left">
-                  <div class="g-recaptcha" data-sitekey="6Ld_piITAAAAAOUOJosWgwobpccMnMqf0EGLIL0I"></div>
-                </div>
+                
                 <div class="text-right">
+                <?php echo form_error('g-recaptcha-response','<div style="color:red;">','</div>'); ?>
+              <div class="g-recaptcha" data-sitekey="6Ld_piITAAAAAOUOJosWgwobpccMnMqf0EGLIL0I"></div>
                   <input id="submit" type="submit" class="button button-primary contact-submit" value="Send">
                 </div>
               </fieldset>
-            </form>
+            <!-- </form> -->
+              
+            <?php echo form_close();?>
           </div>
           <?php /*<div class="contact-block-form col-6-tablet">
             <div id="mainform">
@@ -987,16 +995,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div id="googleMapDialog" title="Google Map" class="hidden">
-     <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.6770701219803!2d55.275935714574906!3d25.21411063720263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428c33db8afd%3A0xe34903f6c9e76de5!2sAl+Saqr+Business+Tower!5e0!3m2!1sen!2sph!4v1460621899364" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.6770701219803!2d55.275935714574906!3d25.21411063720263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428c33db8afd%3A0xe34903f6c9e76de5!2sAl+Saqr+Business+Tower!5e0!3m2!1sen!2sph!4v1460621899364" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <!-- /footer -->
 
     <!-- scripts -->
-    <script src="//code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="https:////code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
     <?php /* <!-- Slick.js JS -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> */ ?>
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="assets/eladioramonida/src/js/vendor/wow.js"></script>
     <script src="assets/eladioramonida/src/js/default.js"></script>
     <!-- /scripts -->
@@ -1018,8 +1026,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       body.css('background', backgrounds[0], 'transition: opacity 5s ease-in-out', '-webkit-transition: opacity 5s ease-in-out', '-moz-transition: opacity 5s ease-in-out', '-o-transition: opacity 5s ease-in-out');
 
     		/*$('#contact_form').on('submit', function(e){
-    			e.preventDefault();
-    			alert('Message Has been Submitted');
+    			
+    			//alert('Message Has been Submitted');
+          var name = $("#name").val();
+          var email = $("#email").val();
+          var message = $("#message").val();
+          var contact = $("#contact").val();
+
+          $("#returnmessage").empty(); //To empty previous error/success message.
+        //checking for blank fields 
+        if(name==''||email==''||contact=='')
+        {
+           alert("Please Fill Required Fields"); 
+        }
+        else{
+        // Returns successful data submission message when the entered information is stored in database.
+        $.post("contact_form.php",{ name1: name, email1: email, message1:message, contact1: contact},
+           function(data) {
+                        $("#returnmessage").append(data);//Append returned message to message paragraph
+                  if(data=="Your Query has been received, We will contact you soon."){
+                    $("#form")[0].reset();//To reset form fields on success
+                  }
+              });
+                 }
+         
+        e.preventDefault();
     		});*/
 
         $( "#googleMapDialog" ).dialog({
@@ -1043,7 +1074,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         });
 
         /* Contact Form script */
-        $("#submit").click(function(){
+        /*$("#submit").click(function(){
           var name = $("#name").val();
           var email = $("#email").val();
           var message = $("#message").val();
@@ -1066,7 +1097,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               });
                  }
          
-        });
+        });*/
         /* end of Contact Form script */
     	});
     </script>
