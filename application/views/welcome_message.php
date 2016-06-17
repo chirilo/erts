@@ -22,6 +22,7 @@
     <?php /* <!-- Slick.js Css -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/> */ ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
   	<!-- Google Tag Manager -->
@@ -694,206 +695,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
             </div>
           </div>
-          <?php /*<div class="modal" id="team-3-profile">
-            <a href="#team-3" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-03.jpg" alt="Team Member 3">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-4-profile">
-            <a href="#team-4" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-04.jpg" alt="Team Member 4">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-5-profile">
-            <a href="#team-5" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-05.jpg" alt="Team Member 5">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-6-profile">
-            <a href="#team-6" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-06.jpg" alt="Team Member 6">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-7-profile">
-            <a href="#team-7" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-07.jpg" alt="Team Member 7">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-8-profile">
-            <a href="#team-8" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-08.jpg" alt="Team Member 8">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-9-profile">
-            <a href="#team-9" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-09.jpg" alt="Team Member 9">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-10-profile">
-            <a href="#team-10" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-10.jpg" alt="Team Member 10">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-11-profile">
-            <a href="#team-11" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-11.jpg" alt="Team Member 11">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal" id="team-12-profile">
-            <a href="#team-12" class="modal-close"><span class="sr">Close</span></a>
-            <div class="modal-inner">
-              <h2 class="team-profile-heading">Clark Kent</h2>
-              <strong class="block">Bad Debt Manager - Team Leader</strong>
-              <div class="clear team-profile-content">
-                <img class="team-profile-image block" src="assets/eladioramonida/src/img/team-12.jpg" alt="Team Member 12">
-                <div class="team-profile-content-block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */ ?>
+          
         </div>
       </div>
       <div class="about-block-inner container">
@@ -1114,6 +916,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="field-group">
                   <label for="message" class="sr">Message</label>
                   <textarea placeholder="Message" class="field" name="message" id="message" cols="30" rows="7"></textarea>
+                </div>
+                <div class="text-left">
+                  <div class="g-recaptcha" data-sitekey="6Ld_piITAAAAAOUOJosWgwobpccMnMqf0EGLIL0I"></div>
                 </div>
                 <div class="text-right">
                   <input id="submit" type="submit" class="button button-primary contact-submit" value="Send">
