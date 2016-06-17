@@ -35,6 +35,7 @@ class Welcome extends CI_Controller {
 		$this->form_validation->set_rules('company', 'Company', 'required');
 		$this->form_validation->set_rules('message', 'Message', 'required');
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email');
+		$this->form_validation->set_rules('g-recaptcha-response','Captcha','callback_recaptcha');
  
 	    if($this->form_validation->run()===FALSE)
 	    {
@@ -46,15 +47,15 @@ class Welcome extends CI_Controller {
 			    'protocol' => 'smtp',
 			    'smtp_host' => 'ssl://smtp.googlemail.com',
 			    'smtp_port' => 465,
-			    'smtp_user' => 'bunsichirilo@gmail.com',
-			    'smtp_pass' => 'smilingisforthew3Ak',
+			    'smtp_user' => 'chithewebdeveloper@gmail.com',
+			    'smtp_pass' => 'sm1l1ngs4thew3Ak',
 			    'mailtype'  => 'html', 
 			    'charset'   => 'iso-8859-1'
 			);
 			$this->load->library('email', $config);
 			$this->email->set_newline("\r\n");
 	    	
-	    	$from_email = "chithewebdeveloper@gmail.com"; 
+	    	$from_email = "bunsichirilo@gmail.com"; 
         	$to_email = $this->input->post('email');
 	    	//Load email library 
 			
