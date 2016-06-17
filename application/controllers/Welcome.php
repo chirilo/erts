@@ -55,7 +55,7 @@ class Welcome extends CI_Controller {
 			$this->load->library('email', $config);
 			$this->email->set_newline("\r\n");
 	    	
-	    	$from_email = "bunsichirilo@gmail.com"; 
+	    	$from_email = "chithewebdeveloper@gmail.com"; 
         	$to_email = $this->input->post('email');
 	    	//Load email library 
 			
