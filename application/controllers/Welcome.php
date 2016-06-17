@@ -42,10 +42,22 @@ class Welcome extends CI_Controller {
 	    }
 	    else
 	    {
+	    	$config = Array(
+			    'protocol' => 'smtp',
+			    'smtp_host' => 'ssl://smtp.googlemail.com',
+			    'smtp_port' => 465,
+			    'smtp_user' => 'chithewebdeveloper@gmail.com',
+			    'smtp_pass' => 'sm1l1ngs4thew3Ak',
+			    'mailtype'  => 'html', 
+			    'charset'   => 'iso-8859-1'
+			);
+			$this->load->library('email', $config);
+			$this->email->set_newline("\r\n");
+	    	
 	    	$from_email = "chithewebdeveloper@gmail.com"; 
         	$to_email = $this->input->post('email');
 	    	//Load email library 
-			$this->load->library('email'); 
+			
 
 			$this->email->from($from_email, 'Erts Representative'); 
 			$this->email->to($to_email);
