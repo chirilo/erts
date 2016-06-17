@@ -46,8 +46,8 @@ class Welcome extends CI_Controller {
 			    'protocol' => 'smtp',
 			    'smtp_host' => 'ssl://smtp.googlemail.com',
 			    'smtp_port' => 465,
-			    'smtp_user' => 'chithewebdeveloper@gmail.com',
-			    'smtp_pass' => 'sm1l1ngs4thew3Ak',
+			    'smtp_user' => 'bunsichirilo@gmail.com',
+			    'smtp_pass' => 'smilingisforthew3Ak',
 			    'mailtype'  => 'html', 
 			    'charset'   => 'iso-8859-1'
 			);
